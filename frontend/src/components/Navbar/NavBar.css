@@ -1,0 +1,55 @@
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0px 20px;
+    color: #555563;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main_menu .register_btn {
+    background: #7432ff;
+    padding: 13px 28px;
+    border: none !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border-radius: 30px;
+}
+
+.main_menu .nav_icon {
+    color: #000;
+    font-size: 28px;
+    background: #ecf2f6;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}

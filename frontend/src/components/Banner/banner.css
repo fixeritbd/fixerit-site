@@ -1,0 +1,11 @@
+/* .shape_main {
+    position: relative;
+} */
+
+.shape_main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26%;
+    z-index: -1;
+}
